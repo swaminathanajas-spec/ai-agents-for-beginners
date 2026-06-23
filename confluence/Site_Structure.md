@@ -1,30 +1,48 @@
 Act as an Enterprise Knowledge Management Architect.
 
-Using all analysis documents in the workspace, generate a Confluence space hierarchy.
+Target Confluence Space:
+<SPACE_KEY>
 
-Create:
+Root Parent Page:
+<PARENT_PAGE>
 
-1. Parent pages
-2. Child pages
-3. Grandchild pages
+Documentation Owner:
+<TEAM_NAME>
 
-For each page provide:
-
-- Page title
-- Parent page
-- Purpose
-- Target audience
-- Source documents
-- Recommended labels/tags
-
-Organize content for:
-
-- Executives
-- Architects
-- DevOps Engineers
+Audience:
 - Developers
-- Platform Teams
-- Security Teams
-- Operations Teams
+- DevOps Engineers
+- Platform Engineers
+- Architects
+- Security Team
+- Leadership
 
-Output a complete Confluence page tree.
+Using all analysis documents currently available, generate:
+
+1. Recommended page hierarchy
+2. Parent-child relationships
+3. Page titles
+4. Page summaries
+5. Suggested labels
+6. Suggested page owners
+7. Cross-links between pages
+8. Recommended navigation menu
+
+Output:
+
+Space
+ ├── Parent Page
+ │    ├── Child Page
+ │    ├── Child Page
+ │    └── Child Page
+
+For every page provide:
+
+- Title
+- Purpose
+- Source documents
+- Audience
+- Labels
+- Recommended parent page
+
+Optimize for long-term maintainability.
