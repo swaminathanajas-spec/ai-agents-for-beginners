@@ -1,0 +1,36 @@
+Using:
+
+1. Source Platform documents already available in the workspace
+
+2. Enterprise platform documents gathered earlier
+
+Create a side-by-side comparison.
+
+Compare:
+
+• Architecture
+• Repository structure
+• Build
+• CI/CD
+• Deployment
+• Kubernetes
+• Infrastructure
+• Security
+• Operations
+• Developer Experience
+• Monitoring
+• Governance
+
+For every difference provide:
+
+Current State
+
+Target State
+
+Impact
+
+Complexity
+
+Recommendation
+
+Priority
